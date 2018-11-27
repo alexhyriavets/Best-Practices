@@ -18,7 +18,7 @@ try {
 	throw new ApiError('Error during fetching users', errorCode)
 }
 ```
-**ApiError** is the custom error which extend standart **Error**. Implemantation of this class described <a href="#">here</a.>.
+**ApiError** is the custom error which extend standart **Error**. Implemantation of this class described <a href="#">here</a>.
 
 ### Store Module
 Calls Api Module, commit mutations, implement other logic. At this level we should log error to sentry or dev console (depends on current environment) and throws it forward.
