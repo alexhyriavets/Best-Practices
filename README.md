@@ -61,4 +61,4 @@ async created () {
 	}
 }
 ```
-Implementation of notification in details decribed <a href="#">here</a>
+Implementation of notification in details described <a href="#">here</a>
