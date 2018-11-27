@@ -46,7 +46,7 @@ try {
 	throw err
 }
 ```
-Implementation of **$logger** and its setup described in details <a href="#">here</a>
+Implementation of **$logger** and its setup described in details <a href="#s">here</a>
 ### View Layer
 Calls store action, uses the result of it. This is the final stage of error handling. At first, we must understand in which way we want to handle an error. Here can be a lot of cases, but most often you want to show some notification to user.
 ```javascript
