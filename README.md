@@ -1,5 +1,5 @@
 ## Vue error handling practical guide
-In this guide i going to cover error handling related to **ajax calls**.
+In this guide i'm going to cover error handling related to **ajax calls**.
 
 In the most cases every api request goes through three main stages:
 1. Api Module
@@ -21,7 +21,7 @@ try {
 **ApiError** is the custom error which extend standart **Error**. Implementation of this class described <a href="#">here</a>.
 
 ### Store Module
-Calls Api Module, commits mutations, implements other logic. At this level we should log error to sentry or dev console (depends on current environment) and throws it forward.
+Calls Api Module, commits mutations, implements other logic. At this level we should log error to sentry or dev console (depends on current environment) and throw it forward.
 ```javascript
 try {
 	// some actions
