@@ -40,5 +40,5 @@ async fetch ({ commit }) {
 ```
 
 ### References
-- https://javascript.info/custom-errors
-- https://medium.com/@xjamundx/custom-javascript-errors-in-es6-aa891b173f87
+- [Custom errors, extending Error](https://javascript.info/custom-errors)
+- [Custom JavaScript Errors in ES6](https://medium.com/@xjamundx/custom-javascript-errors-in-es6-aa891b173f87)
