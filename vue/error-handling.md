@@ -61,4 +61,4 @@ async created () {
   }
 }
 ```
-Implementation of notification in details described <a href="#">here</a>
+For notifications we can use library such as [vue-notification](https://github.com/euvl/vue-notification)
